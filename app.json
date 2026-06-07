@@ -22,7 +22,7 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      [
+      [i
         "expo-location",
         {
           "locationAlwaysAndWhenInUsePermission": "Allow SparoMed to access your location."
