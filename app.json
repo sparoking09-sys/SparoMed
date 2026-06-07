@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "SparoMed",
+    "slug": "sparomed",
+    "version": "0.1.0",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTabletMode": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyDemoGoogleMapsKey123456789012345"
+      }
+    },
+    "android": {
+      "package": "com.sparomed.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDemoGoogleMapsKey123456789012345"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow SparoMed to access your location."
+        }
+      ]
+    ]
+  }
+}
